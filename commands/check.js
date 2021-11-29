@@ -49,6 +49,7 @@ async function go(message,args,client){
                 em.addField('Estimated Payout', est)
                 em.addField('Lifetime Balance',life)
                 message.channel.send(em)
+		browser.close()
                 
 
             }
